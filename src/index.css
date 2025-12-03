@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Orbitron:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Default Theme: Space Lab */
+  --color-primary: #0A1628;
+  --color-secondary: #00D9FF;
+  --color-accent: #00FF88;
+  --color-background: #0F1419;
+  --color-text: #FFFFFF;
+}
+
+.theme-gamified {
+  --color-primary: #2D1B69;
+  --color-secondary: #FFD700;
+  --color-accent: #00FFFF;
+  --color-background: #1A0B3C;
+  --color-text: #FFFFFF;
+}
+
+.theme-professional {
+  --color-primary: #36454F;
+  --color-secondary: #0066CC;
+  --color-accent: #00AA00;
+  --color-background: #FFFFFF;
+  --color-text: #2C3E50;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: 'Inter', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Orbitron', sans-serif;
+}
