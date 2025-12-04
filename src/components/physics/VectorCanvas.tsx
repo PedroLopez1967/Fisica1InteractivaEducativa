@@ -42,7 +42,7 @@ const VectorCanvas: React.FC<VectorCanvasProps> = ({
 
         // Label
         ctx.fillStyle = '#FFFFFF';
-        ctx.font = '14px monospace';
+        ctx.font = '16px monospace';
         ctx.fillText(label, toX + 10, toY);
     };
 

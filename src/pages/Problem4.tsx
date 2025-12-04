@@ -72,9 +72,9 @@ const Problem4: React.FC = () => {
 
     return (
         <div className="space-y-6">
-            <div className="flex items-center justify-between">
-                <h1 className="text-3xl font-heading text-secondary">Torre de Energía: Conservación</h1>
-                <Link to="/" className="text-gray-400 hover:text-white">← Volver al Dashboard</Link>
+            <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+                <h1 className="text-2xl md:text-3xl font-heading text-secondary">Torre de Energía: Conservación</h1>
+                <Link to="/" className="text-gray-400 hover:text-white text-sm md:text-base">← Volver al Dashboard</Link>
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Dashboard: React.FC = () => {
     return (
         <div className="flex flex-col items-center justify-center space-y-8">
-            <h1 className="text-4xl font-heading text-primary">Física General I</h1>
+            <h1 className="text-3xl md:text-4xl font-heading text-primary text-center">Física General I</h1>
             <p className="text-xl text-text">Selecciona un escenario para comenzar:</p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full max-w-4xl">
                 <Link to="/problem/1" className="p-6 border border-secondary/30 rounded-lg hover:bg-white/5 transition group">
